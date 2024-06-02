@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sqlite.AddActivity"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Titulo del libro"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/author_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Autor del libro"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/pages_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Número de páginas"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Libro"
+        android:textAllcaps="false"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="367dp"
+        android:textSize="20sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
